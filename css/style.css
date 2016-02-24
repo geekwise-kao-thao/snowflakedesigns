@@ -19,16 +19,23 @@ header{
     margin:0;
     padding:0;
     width:100%;
-    height:250px;
-}
-header div{
-    display:block;
-    margin:0 auto;
-    padding:0;
-    
-    
+    height:200px;
 }
 
+#header_nav{
+    background-color:yellow;
+    margin:0;
+    padding:0;
+    height: 160px;
+    width:100%;
+}
+
+#header_nav_div{
+    background-color:white;
+    margin:0;
+    padding:0;
+    height:100%;
+}
 
 #logo{
     margin:0;
@@ -63,6 +70,8 @@ header div{
 
 #top_right_nav ul li:nth-of-type(1){
     display:inline-block;
+    margin:0;
+    padding:0;
     width:calc(90%/3);
     height:30px;
     text-align: center;
@@ -71,6 +80,8 @@ header div{
 }
 #top_right_nav ul li:nth-of-type(2){
     display:inline-block;
+    margin:0;
+    padding:0;
     width:calc(90%/3);
     height:30px;
     text-align: center;
@@ -79,6 +90,8 @@ header div{
 }
 #top_right_nav ul li:nth-of-type(3){
     display:inline-block;
+    margin:0;
+    padding:0;
     width:calc(90%/3);
     height:30px;
     text-align: center;
@@ -87,6 +100,8 @@ header div{
 }
 #top_right_nav ul li:nth-of-type(4){
     display:inline-block;
+    margin:0;
+    padding:0;
     width:calc(90%/3);
     height:30px;
     text-align: center;
@@ -95,6 +110,8 @@ header div{
 }
 #top_right_nav ul li:nth-of-type(5){
     display:inline-block;
+    margin:0;
+    padding:0;
     float:left;
     width:calc(90%/3);
     height:30px;
@@ -103,6 +120,8 @@ header div{
 }
 #top_right_nav ul li:nth-of-type(6){
     display:inline-block;
+    margin:0;
+    padding:0;
     width:calc(90%/3);
     height:30px;
     text-align: center;
@@ -116,15 +135,15 @@ header div{
     text-decoration: none;
     color:white;
     margin:0;
-    padding:0;
     height:30px;
     text-transform: uppercase;
 }
 
-#top_right_nav ul li a:nth-of-type(1){
+#top_right_nav ul li a{
     margin:0 5px 0 5px;
-    padding:2px
+    padding:2px;
 }
+
 
 /*top right nav bar ends*/
 
@@ -203,23 +222,26 @@ header div{
 /*row under the top right nav bar ends*/
 
 /*pink nav bar begins*/
-header div{
-    margin:0;
-    padding:0;
-    width:auto;
-    height:auto;
-    font-size:2.5rem;
-}
-#pink_nav{
-    margin:0;
-    padding:0;
-    width:auto;
-    height:auto;
+#div_pink{
+    background-color:#F42098;
     display:block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:40px;
+}
+
+#pink_nav_left{.
+    margin:0;
+    padding:0;
+    width:calc(100%/1.4);
+    height:40px;
+    display:inline-block;
+    float:left;
     
 }
 
-#pink_nav ul{
+#pink_nav_left ul{
     background-color: #F42098;
     display:block;
     margin:0 auto;
@@ -229,180 +251,166 @@ header div{
     list-style: none:
 }
 
-#pink_nav ul li:nth-of-type(1){
+#pink_nav_left ul li:nth-of-type(1){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:80px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float:left;
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
 
-#pink_nav ul li:nth-of-type(2){
+#pink_nav_left ul li:nth-of-type(2){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:110px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
 
-#pink_nav ul li:nth-of-type(3){
+#pink_nav_left ul li:nth-of-type(3){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:140px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
 
-#pink_nav ul li:nth-of-type(4){
+#pink_nav_left ul li:nth-of-type(4){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:100px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
 
-#pink_nav ul li:nth-of-type(5){
+#pink_nav_left ul li:nth-of-type(5){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:120px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
-#pink_nav ul li:nth-of-type(6){
+#pink_nav_left ul li:nth-of-type(6){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:110px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
-    font-size:1.6rem;
-}
-
-#pink_nav ul li:nth-of-type(7){
-    background-color: #F42098;
-    display:inline-block;
-    margin:0;
-    padding:0;
-    width:calc(100%/13);
-    height: auto;
-    text-transform: uppercase;
-    text-align: center;
-    float: left;
-    font-size:1.6rem;
-}
-#pink_nav ul li:nth-of-type(8){
-    background-color: #F42098;
-    display:inline-block;
-    margin:0;
-    padding:0;
-    width:calc(100%/13);
-    height: auto;
-    text-transform: uppercase;
-    text-align: center;
-    float: left;
-    font-size:1.6rem;
-}
-#pink_nav ul li:nth-of-type(9){
-    background-color: #F42098;
-    display:inline-block;
-    margin:0;
-    padding:0;
-    width:calc(100%/13);
-    height: auto;
-    text-transform: uppercase;
-    text-align: center;
-    float: left;
-    font-size:1.6rem;
+    font-size:1.3rem;
 }
 
-#pink_nav ul li:nth-of-type(10){
+#pink_nav_left ul li:nth-of-type(7){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:60px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
-    font-size:1rem;
+    font-size:1.3rem;
 }
-
-#pink_nav ul li:nth-of-type(11){
+#pink_nav_left ul li:nth-of-type(8){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:70px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
     float: left;
+    font-size:1.3rem;
 }
-
-#pink_nav ul li:nth-of-type(12){
+#pink_nav_left ul li:nth-of-type(9){
     background-color: #F42098;
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
+    width:150px;
     height: auto;
     text-transform: uppercase;
     text-align: center;
+    float: rightt;
+    font-size:1.3rem;
+}
+
+#pink_nav_left ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#pink_nav_right{
+    background-color:#F42098;
+    margin:0;
+    padding:0;
+    width:160px;
+    height:40px;
+    display: inline-block;
+    float:right;
+}
+
+
+#pink_nav_right ul li:nth-of-type(1){
+    display:inline-block;
+    margin:0;
+    padding:0;
     float: left;
 }
 
-#pink_nav ul li:nth-of-type(13){
-    background-color: #F42098;
+#pink_nav_right ul li:nth-of-type(2){
     display:inline-block;
     margin:0;
     padding:0;
-    width:calc(100%/13);
-    height: auto;
-    text-transform: uppercase;
-    text-align: center;
+    float: left;
+}
+
+#pink_nav_right ul li:nth-of-type(3){
+    display:inline-block;
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+#pink_nav_right ul li:nth-of-type(4){
+    display:inline-block;
+    margin:0;
+    padding:0;
     float: right;
 }
 
 
-
-header div nav ul li a{
-    display: block;
-    text-decoration: none;
-    margin:0;
-    padding:0;
-    height:auto;
-    text-transform:uppercase;
-    text-decoration: none;
-}
 
 /*pink nav bar ends*/
 
