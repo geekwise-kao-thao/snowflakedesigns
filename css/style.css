@@ -120,9 +120,20 @@ header{
 
 /*row under the top right nav bar begins*/
 
-#shop_facebook_amazon_number{
-    
+#shop_facebook_amazon_number_nav{
+    background-color:lightgreen;
+    font-size:1.7rem;
+    margin:0;
+    padding:0;
+    width:600px;
+    height:129px;
+    display:inline-block;
+    float:right;
 }
+#shop_facebook_amazon_number_nav ul{
+    background-color:grey;
+}
+
 
 
 
