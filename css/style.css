@@ -200,9 +200,45 @@ header span{
     font-weight: bold;
 }
 
-
-
-87 px image
-
-
 /*row under the top right nav bar ends*/
+
+/*pink nav bar begins*/
+header div{
+    margin:0;
+    padding:0;
+    width:auto;
+    height:auto;
+    font-size:2.5rem;
+}
+header div nav{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    
+}
+
+header div nav ul{
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:auto;
+    
+}
+
+header div nav ul li{
+    display:block;
+    margin:0 auto;
+    padding:0;
+    width:auto;
+        
+}
+header div nav ul li a{
+    display: inline-block;
+    width:calc(100%/10);
+    float:
+}
+
+/*pink nav bar ends*/
+
+
