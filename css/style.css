@@ -66,6 +66,7 @@ header{
     width:auto;
     height: 89px;
     transform:translateY(0rem);
+    line-height:30px;
 }
 
 #top_right_nav ul li:nth-of-type(1){
@@ -234,7 +235,7 @@ header{
 #pink_nav_left{.
     margin:0;
     padding:0;
-    width:calc(100%/1.4);
+    width:calc(100%/1.19);
     height:40px;
     display:inline-block;
     float:left;
@@ -248,7 +249,8 @@ header{
     padding:0;
     width:100%;
     height:100%;  
-    list-style: none:
+    list-style: none;
+    line-height:40px;
 }
 
 #pink_nav_left ul li:nth-of-type(1){
@@ -375,7 +377,7 @@ header{
     background-color:#F42098;
     margin:0;
     padding:0;
-    width:160px;
+    width:190px;
     height:40px;
     display: inline-block;
     float:right;
@@ -386,6 +388,8 @@ header{
     display:inline-block;
     margin:0;
     padding:0;
+    width:45px;
+    text-align: center;
     float: left;
 }
 
@@ -393,6 +397,8 @@ header{
     display:inline-block;
     margin:0;
     padding:0;
+    width:45px;
+    text-align: center;
     float: left;
 }
 
@@ -400,16 +406,24 @@ header{
     display:inline-block;
     margin:0;
     padding:0;
+    width:45px;
+    text-align: center;
     float: left;
 }
 
 #pink_nav_right ul li:nth-of-type(4){
     display:inline-block;
     margin:0;
-    padding:0;
+    padding:0 5px 0 0;
+    width:2px;
     float: right;
 }
 
+
+#pink_nav_right ul li a{
+    margin:0;
+    padding:0;
+}
 
 
 /*pink nav bar ends*/
