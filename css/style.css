@@ -670,11 +670,11 @@ header{
 
 /*last break starts*/
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:540px){
     
     header{
         text-align: center;
-        height:390px;
+        height:450px;
         overflow: visible;
         
     }
@@ -703,50 +703,65 @@ header{
     #top_right_nav{
         display: block;
         width:100%;
+        height:250px;
     }
     
     #top_right_nav ul{
         background-color:white;
         width:60%;
-        height: 200px;
+        height: 100%;
     }
     
     #top_right_nav ul li:nth-of-type(1){
-        width:100%;
+        width:300px;
         transform: translateY(0px);
     }
     #top_right_nav ul li:nth-of-type(2){
-        width:100%;
+        width:300px;
+        
     }
     #top_right_nav ul li:nth-of-type(3){
-        width:100%;
+        width:300px;
+        margin-top:10px;
     }
     #top_right_nav ul li:nth-of-type(4){
-        width:100%;
+        width:300px;
     }
     #top_right_nav ul li:nth-of-type(5){
-        width:100%;
+        width:300px;
+        margin-top:5px;
     }
     #top_right_nav ul li:nth-of-type(6){
-        width:100%;
+        width:300px;
+        margin-top:5px;
     }
     
+    #top-right_nav ul li a{
+    }
     
-    
-    #top-right_nav ul li a
     #shop_facebook_amazon_number_nav{
         width:100%;
     }
     #shop_facebook_amazon_number_nav ul{
-        width:350px;;
+        width:300px;
     }
     
     #shop_facebook_amazon_number_nav ul li:nth-of-type(1){
-        color: white;
-        width:65px
-        
+        color:white;
+        display:none;
     }
     
+    #shop_facebook_amazon_number_nav ul li:nth-of-type(2){
+        width:80px;
+    }
+    #shop_facebook_amazon_number_nav ul li:nth-of-type(3){
+        width:80px;
+    }
+    
+    #shop_facebook_amazon_number_nav ul li:nth-of-type(4){
+        font-size:1.8rem;
+        width:120px;
+    }
     
 }
 
