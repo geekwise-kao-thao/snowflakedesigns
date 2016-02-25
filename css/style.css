@@ -622,14 +622,19 @@ header{
     }
     
     #div_logo{
+        display: block;
+        margin:0 auto;
         height:120px;
         text-align: center;
         padding-top: 10px;
     }
     
     #logo{ 
+        display: inline-block;
+        margin:0;
         width:260px;
         text-align: center;
+        float:none;
         
     }
     #top_right_nav{
