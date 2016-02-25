@@ -376,10 +376,11 @@ header{
 #pink_nav_right{
     background-color:#F42098;
     margin:0;
-    padding:0;
+    padding-right:50px;
     width:190px;
     height:40px;
     display: inline-block;
+    float:right;
 }
 
 
