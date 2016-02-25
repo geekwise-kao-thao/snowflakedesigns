@@ -235,7 +235,7 @@ header{
 #pink_nav_left{.
     margin:0;
     padding:0;
-    width:calc(100%/1.19);
+    width:940px;
     height:40px;
     display:inline-block;
     float:left;
@@ -380,7 +380,6 @@ header{
     width:190px;
     height:40px;
     display: inline-block;
-    float:right;
 }
 
 
@@ -414,7 +413,7 @@ header{
 #pink_nav_right ul li:nth-of-type(4){
     display:inline-block;
     margin:0;
-    padding:0 5px 0 0;
+    padding:0;
     width:2px;
     float: right;
 }
